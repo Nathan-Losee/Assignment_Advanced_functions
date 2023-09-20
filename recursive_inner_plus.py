@@ -12,9 +12,9 @@ def recursion_list_fun(i):
 deepest_list = recursion_list_fun(test_list)
 def add_one(i):
     x=0
-    while x < len(final):
-        final[x] = final[x]+1
+    while x < len(i):
+        i[x] = i[x]+1
         x+=1
-    return final
-final = add_one(test_list)
+    return i
+final = add_one(deepest_list)
 print(final)
